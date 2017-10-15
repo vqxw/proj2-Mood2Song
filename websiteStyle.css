@@ -8,21 +8,25 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 h1 {
     color: white;
     text-align: center;
 }
+
 a:link {
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
+
 a:hover {
     COLOR: yellow;
 }
+
 ul {
     color: white;
     text-align: center;
 }
+
 div {
     width: 250px;
     border: 10px solid white;
@@ -30,6 +34,7 @@ div {
     margin: auto;
     margin-top: 5%;
 }
+
 /* the format for the youtube videos */
 iframe {
     width: 80%;
