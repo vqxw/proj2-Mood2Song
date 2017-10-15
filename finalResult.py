@@ -3,8 +3,8 @@
 from flask import Flask, render_template, request, url_for, redirect
 from string import Template
 import requests
-import os
 import random
+import os
 
 HTML_TEMPLATE = Template
 
