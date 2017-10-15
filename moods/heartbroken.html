@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Linking the html file to the css file -->
+    <link rel = "stylesheet" type = "text/css" href="{{url_for('static', filename = 'websiteStyle.css')}}">
+</head>
+
+<html>
+    <title> Heartbroken Songs </title>
+    <h1> Here is a heartbreaking song: </h1>
+<ul>
+    <!-- Putting the video onto the website -->
+    <iframe src="https://www.youtube.com/embed/{{heartbrokenID}}" frameborder="0" width="560" height="315"></iframe>
+</ul>
+</html>

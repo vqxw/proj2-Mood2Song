@@ -1,0 +1,37 @@
+/* The styling for the html file */
+
+body {
+    text-align: center;
+    background-image: url("http://az616578.vo.msecnd.net/files/2016/02/20/635915812254100731-1135129026_tumblr_static_vinyl-records-music-hd-wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+    
+}
+a:hover {
+    COLOR: yellow;
+}
+ul {
+    color: white;
+    text-align: center;
+}
+div {
+    width: 250px;
+    border: 10px solid white;
+    padding: 20px 30px;
+    margin: auto;
+    margin-top: 5%;
+}
+/* the format for the youtube videos */
+iframe {
+    width: 80%;
+    height: 600px;
+}

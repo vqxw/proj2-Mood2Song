@@ -1,0 +1,55 @@
+<!-- This file is where the user chooses their mood -->
+
+<!DOCTYPE html>
+<html>
+    
+<!--Linking the CSS file to the HTML file-->
+<head>
+    <!-- Linking the html file to the css file -->
+    <link rel = "stylesheet" type = "text/css" href="{{url_for('static', filename = 'websiteStyle.css')}}">
+</head>
+
+<!--homepage-->
+    <title> Music Results Based On Mood </title>
+    <h1><br> How are you feeling? </h1><br><br>
+   
+<!-- Where the linking takes place -->
+<ul>
+    <form action = "{{url_for('happy')}}" method = "POST"> <!-- using the "happy" function from the Py file -->
+        <input type = submit name = "mood" value = "Happy"></br> <!-- Happy button -->
+    </form>
+    
+    <form action = "{{url_for('heartbroken')}}" method = "POST">
+        <input type = submit name = "mood" value = "Heartbroken"></br>
+    </form>
+    
+    <form action = "{{url_for('angry')}}" method = "POST">
+        <input type = submit name = "mood" value = "Angry"></br>
+    </form>
+    
+    <form action = "{{url_for('energetic')}}" method = "POST">
+        <input type = submit name = "mood" value = "Energetic"></br>
+    </form>
+    
+    <form action = "{{url_for('mellow')}}" method = "POST">
+        <input type = submit name = "mood" value = "Mellow"></br>
+    </form>
+    
+    <form action = "{{url_for('depressing')}}" method = "POST">
+        <input type = submit name = "mood" value = "Depressed"></br>
+    </form>
+    
+    <form action = "{{url_for('groovy')}}" method = "POST">
+        <input type = submit name = "mood" value = "Groovy"></br>
+    </form>
+   
+    <form action = "{{url_for('romantic')}}" method = "POST">
+        <input type = submit name = "mood" value = "Romantic"></br>
+    </form>
+    
+    <form action = "{{url_for('spiritual')}}" method = "POST">
+        <input type = submit name = "mood" value = "Spiritual"></br>
+    </form>
+   
+</ul>
+</html>
